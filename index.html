@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <nav style="text-align:center">
+    <h1> Formulario de Datos </h1>
+    <section>
+    <form  action="" >
+      <label for="">Nombre</label><br>
+      <br>
+        <input type="text"required><br>
+        <br>
+      <label for="">Apellido</label><br>
+      <br>
+        <input type="text"required>
+        <br>
+        <div >
+      <label for="telefono">Telefono</label><br>
+      <input type="text"  pattern="^[9]\d{8}$" title="solo num" required>
+      </div>
+      <div>
+        <p>
+          <label for="">Escoge tu auto pa continuar</label><br>
+        <select>
+
+            <option hidden >Escoge tu carro</option>
+            <option >Volvo</option>
+            <option >Mercedez</option>
+            <option >Audi</option>
+        </select>
+
+      </p>
+      </div>
+
+      <label for="">Email</label><br>
+      <input type="email" required><br>
+      <label for="">Crea tu contraseña</label><br>
+      <input type="password" pattern=".{6,}"required><br>
+    </br>
+      <input type="submit" name="" value="enviar">
+
+
+
+    </form>
+  </section>
+  </nav>
+
+
+</body>
+</html>
